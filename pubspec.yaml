@@ -29,6 +29,7 @@ environment:
 # versions available, run `flutter pub outdated`.
 dependencies:
   cupertino_icons: ^1.0.6
+<<<<<<< HEAD
   flutter:
     sdk: flutter
   flutter_native_splash: ^2.3.11
@@ -47,6 +48,21 @@ flutter_launcher_icons:
   android: "launcher_icon"
   ios: true
   image_path: "assets/mahfazty.png"
+=======
+  firebase_auth: ^4.17.5
+  firebase_core: ^2.24.2
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.4
+  flutter_screenutil: ^5.9.0
+  google_fonts: ^6.1.0
+
+dev_dependencies:
+  flutter_lints: ^3.0.0
+  flutter_test:
+    sdk: flutter
+
+>>>>>>> origin/features/login
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
 # The following section is specific to Flutter packages.
