@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mahfazty/core/routing/routes.dart';
 
 import '../../../../core/theming/fonts.dart';
 
@@ -16,7 +17,11 @@ class DontHaveAnAccount extends StatelessWidget {
           'Dont have an account?',
           style: FontHelper.font13WhiteW300,
         ),
-        TextButton(onPressed: () {}, child: const Text('Sign Up'))
+        TextButton(
+            onPressed: () {
+              Navigator.pushNamed(context, Routes.signup);
+            },
+            child: const Text('Sign Up'))
       ],
     );
   }
